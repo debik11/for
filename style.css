@@ -1,0 +1,59 @@
+*{
+	margin: 0;
+	font-family: 'Ranchers', cursive;
+}
+.div-fon{
+	height: 100vh;
+	background-image: url(https://i.pinimg.com/originals/eb/44/1b/eb441bfa5a21147fd8ceeea2a07cd33c.jpg);
+	background-size: cover;
+	background-position: center;
+}
+.div-gradient{
+	height: 100vh;
+	background: rgb(255,235,0);
+	background: linear-gradient(0deg, rgba(255,235,0,0.7) 0%, rgba(255,51,0,0.7) 100%);
+}
+.h1{
+	color: white;
+	text-align: center;
+	padding-top: 250px;
+	font-size: 120px;
+}
+.buttons{
+	width: 1000px;
+	margin: auto;
+	margin-top: 150px;
+}
+.button{
+	width: 200px;
+	float: left;
+}
+.button + .button{
+	margin-left: 50px;
+}
+.line{
+	width: 200px;
+	height: 10px;
+	background-color: white;
+}
+.text{
+	font-size: 30px;
+	color: white;
+}
+.l1{
+	background-color: #afafaf;
+}
+.slider{
+	position: relative;
+	overflow: hidden;
+	width: 800px;
+	height: 600px;
+	margin: auto;
+}
+.div-header{
+	margin: auto;
+	position: absolute;
+	transition: left 0.5s ease-in;	
+	text-align: center;
+	width: 800px;
+}
